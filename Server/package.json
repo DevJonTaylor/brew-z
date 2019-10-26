@@ -1,10 +1,10 @@
 {
   "name": "brew-z",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A package manager for macOS/Windows/Linux.  ",
   "main": "./Server/brew-z.js",
   "scripts": {
-    "client": "./Client/brew-z.js",
+    "client": "../Client/brew-z.js",
     "server": "./Server/brew-z.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
