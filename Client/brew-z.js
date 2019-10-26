@@ -1,7 +1,3 @@
-const Client = require('../Classes/Client');
+const logo = require('./Functions/Logo');
 
-let client = new Client();
-
-client.connect(() => {
-  client.emit('cray', 'Sup!');
-});
+console.log(logo.join('\n'));

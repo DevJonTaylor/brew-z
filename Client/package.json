@@ -1,6 +1,6 @@
 {
-  "name": "brew-z-server",
-  "version": "0.0.2",
+  "name": "brew-z-client",
+  "version": "0.0.1",
   "description": "A package manager for macOS/Windows/Linux.  ",
   "main": "brew-z.js",
   "scripts": {
@@ -24,12 +24,5 @@
   },
   "homepage": "https://github.com/DevJonTaylor/brew-z#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.7.5",
-    "uuid": "^3.3.3"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.2.1"
   }
 }
